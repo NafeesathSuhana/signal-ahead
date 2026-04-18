@@ -9,6 +9,7 @@ const navItems = [
   { href: "/velocity", label: "Velocity", color: "bg-orange-500" },
   { href: "/autopsy", label: "Autopsy", color: "bg-purple-600" },
   { href: "/radar", label: "Radar", color: "bg-teal-600" },
+  { href: "/review-queue", label: "AI Engine", color: "bg-gradient-to-r from-purple-600 to-pink-600" },
   { href: "/dashboard", label: "War Room" },
 ]
 
