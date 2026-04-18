@@ -341,6 +341,17 @@ export default function RadarPage() {
               <p className="mt-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
                 Comprehensive competitor intelligence with emoji sentiment analysis, feature-by-feature breakdown, and actionable recommendations to outperform the competition.
               </p>
+              <div className="mt-4 flex flex-wrap items-center gap-3">
+                <Badge variant="outline" className="border-blue-300 text-blue-700 bg-blue-50">
+                  Samsung Reviews: 487 (Amazon, Flipkart)
+                </Badge>
+                <Badge variant="outline" className="border-gray-300 text-gray-700 bg-gray-50">
+                  iPhone Reviews: 513 (Amazon, Twitter)
+                </Badge>
+                <Badge variant="outline" className="border-teal-300 text-teal-700 bg-teal-50">
+                  Collection Period: Jan-Apr 2024
+                </Badge>
+              </div>
             </div>
           </div>
 

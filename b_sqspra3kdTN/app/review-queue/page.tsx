@@ -302,6 +302,18 @@ export default function ReviewQueuePage() {
               <p className="mt-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
                 Advanced NLP with sarcasm detection, emoji sentiment analysis, and bot filtering. All 1,000 reviews classified automatically with 96.4% accuracy.
               </p>
+              <div className="mt-4 flex flex-wrap items-center gap-3">
+                <Badge variant="outline" className="border-blue-300 text-blue-700 bg-blue-50">
+                  <MessageSquareText className="mr-1 h-3 w-3" />
+                  Dataset: 1,000 E-commerce Reviews
+                </Badge>
+                <Badge variant="outline" className="border-teal-300 text-teal-700 bg-teal-50">
+                  Sources: Amazon, Flipkart, Twitter
+                </Badge>
+                <Badge variant="outline" className="border-purple-300 text-purple-700 bg-purple-50">
+                  Products: Samsung Galaxy, iPhone, Buds, Creams
+                </Badge>
+              </div>
             </div>
             <Card className="border-purple-200 bg-purple-50/50">
               <CardContent className="pt-4 pb-3 px-4">
