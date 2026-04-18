@@ -113,19 +113,29 @@ export default function HomePage() {
         <section className="relative py-20 sm:py-28 gradient-hero">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <Badge variant="secondary" className="mb-6 px-4 py-1.5 text-sm font-medium bg-gradient-to-r from-purple-100 to-pink-100 text-purple-700 border-purple-200">
-                SignalAhead
-              </Badge>
-              
-              <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
-                Customer Review Intelligence Platform
+              <h1 className="text-6xl font-extrabold tracking-tight sm:text-7xl md:text-8xl">
+                <span className="bg-gradient-to-r from-orange-500 via-orange-400 to-amber-500 bg-clip-text text-transparent">
+                  SignalAhead
+                </span>
               </h1>
               
-              <p className="mx-auto mt-6 max-w-2xl text-2xl font-semibold text-orange-500">
-                Predict. Explain. Outmaneuver.
+              <p className="mt-4 text-xl text-muted-foreground sm:text-2xl">
+                Customer Review Intelligence Platform
               </p>
               
-              <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
+              <div className="mt-8 flex flex-wrap justify-center gap-3">
+                <span className="inline-flex items-center rounded-full bg-orange-500 px-5 py-2 text-lg font-bold text-white shadow-lg shadow-orange-500/30 sm:text-xl">
+                  Predict
+                </span>
+                <span className="inline-flex items-center rounded-full bg-purple-600 px-5 py-2 text-lg font-bold text-white shadow-lg shadow-purple-600/30 sm:text-xl">
+                  Explain
+                </span>
+                <span className="inline-flex items-center rounded-full bg-teal-600 px-5 py-2 text-lg font-bold text-white shadow-lg shadow-teal-600/30 sm:text-xl">
+                  Outmaneuver
+                </span>
+              </div>
+              
+              <p className="mx-auto mt-8 max-w-2xl text-base text-muted-foreground leading-relaxed sm:text-lg">
                 {"Don't just read reviews. Know what's about to break — and whether it's your problem or your competitor's."}
               </p>
 
