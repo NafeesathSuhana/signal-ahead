@@ -114,17 +114,19 @@ export default function HomePage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <Badge variant="secondary" className="mb-6 px-4 py-1.5 text-sm font-medium bg-gradient-to-r from-purple-100 to-pink-100 text-purple-700 border-purple-200">
-                AI-Powered Review Intelligence Platform | Zero Human Intervention
+                SignalAhead
               </Badge>
               
               <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
-                Turn Customer Reviews Into
-                <br />
-                <span className="text-orange-500">Actionable Intelligence</span>
+                Customer Review Intelligence Platform
               </h1>
               
-              <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-                {"Advanced NLP with sarcasm detection, emoji sentiment analysis, and competitor intelligence. All 1,000 reviews classified automatically with 96.4% accuracy."}
+              <p className="mx-auto mt-6 max-w-2xl text-2xl font-semibold text-orange-500">
+                Predict. Explain. Outmaneuver.
+              </p>
+              
+              <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
+                {"Don't just read reviews. Know what's about to break — and whether it's your problem or your competitor's."}
               </p>
 
               <div className="mt-10 flex flex-wrap justify-center gap-4">
